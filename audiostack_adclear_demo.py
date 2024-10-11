@@ -20,6 +20,8 @@ def generate_script(product_description):
         "x-api-key": audiostack.api_key  # Use the Audiostack API key
     }
     
+    print("Generating script with payload:", payload)  # Debugging statement
+    
     response = requests.post(url, json=payload, headers=headers)
 
     # Check if the response is successful
@@ -53,6 +55,8 @@ def generate_advert(script_id, product_name, product_description, mood, tone, ad
         "adLength": ad_length  # Set ad length to a valid value (default is 30)
     }
     
+    print("Generating advert with data:", data)  # Debugging statement
+    
     response = requests.post(audiostack_url, headers=headers, json=data)
 
     # Check if the response is successful
@@ -63,6 +67,7 @@ def generate_advert(script_id, product_name, product_description, mood, tone, ad
         return {"error": f"Error from Audiostack: {response.text}"}
 
 # Function to evaluate the generated advert using Adclear API
+# Function to evaluate the generated advert using Adclear API
 def evaluate_advert(api_key_adclear, advert_text):
     adclear_url = "https://app.adclear.ai/api/v1/evaluate/text"
     headers = {
@@ -71,9 +76,11 @@ def evaluate_advert(api_key_adclear, advert_text):
     }
     data = {
         "text": advert_text,
-        "evidenceProvided": False  # Set to True if the advert contains claims needing evidence
+        "evidenceProvided": True  # Set to True if the advert contains claims needing evidence
     }
     
+    print("Evaluating advert with text:", advert_text)  # Debugging statement
+
     response = requests.post(adclear_url, headers=headers, json=data)
 
     # Debugging: Check response status and content
@@ -128,7 +135,7 @@ def run_demo(api_key_adclear, product_description):
     }
 
 # Replace this with your actual Adclear API key
-api_key_adclear = "your_adclear_api_key"  # Update with the correct API key
+api_key_adclear = "adclear_3ZMSQMKRUWNJTvhsrtDZ35jU"  # Update with the correct API key
 
 # Input section for the product description
 product_description = input("Please provide a product description: ")
