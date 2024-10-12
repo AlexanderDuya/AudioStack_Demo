@@ -56,12 +56,10 @@ Dining Adventures
 Overall Assessment: This will need review to pass the relevant guidelines.
 
 Suggested Changes:
-   -The advertiser should provide substantiation for claims about the "unparalleled satisfaction" and "extraordinary delicacy" of the Brown Nugget. These claims could be interpreted as health or nutrition claims, which require evidence under **Rule       
-   15.1**.
-   -Ensure that any claims made do not imply a health benefit without substantiation to comply with **Rule 15.1** and avoid making unsubstantiated health or nutrition claims.
+-The advertiser should provide substantiation for claims about the "unparalleled satisfaction" and "extraordinary delicacy" of the Brown Nugget. These claims could be interpreted as health or nutrition claims, which require evidence under **Rule 15.1**.
+-Ensure that any claims made do not imply a health benefit without substantiation to comply with **Rule 15.1** and avoid making unsubstantiated health or nutrition claims.
 
 **Recommendation:** The advertiser should provide evidence or further substantiation to support claims and consider using testimonials or case studies from recognized brands to fortify the message while ensuring the ad adheres to CAP and BCAP Codes.
-
 
 Troubleshooting
 If you encounter errors related to API requests, double-check your API keys and ensure you have internet connectivity.
