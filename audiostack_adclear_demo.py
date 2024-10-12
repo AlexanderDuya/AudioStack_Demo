@@ -3,7 +3,7 @@ import json
 import audiostack
 
 # Set your Audiostack API key
-audiostack.api_key = "4bb2eddd-693b-4b24-9107-ee18bbaff5bf"  # Use your actual API key here
+audiostack.api_key = "XXX-XXX-XXX-XXX"  # Use your actual API key here
 
 # Function to generate a script resource using Audiostack API
 def generate_script(product_description):
@@ -69,13 +69,13 @@ def generate_advert(script_id, product_name, product_description, mood, tone, ad
 
 # Function to evaluate the generated advert using Adclear API
 def evaluate_advert(api_key_adclear, advert_text):
-    adclear_url = "https://app.adclear.ai/api/v1/evaluate/text"
+    adclear_url = "https://staging.adclear.ai/api/v1/evaluate/text"  # Updated URL for staging
     headers = {
         "Authorization": f"Bearer {api_key_adclear}",
         "Content-Type": "application/json"
     }
     data = {
-        "text": advert_text,
+        "content": advert_text,  # Changed from 'text' to 'content'
         "evidenceProvided": True  # Set to True if the advert contains claims needing evidence
     }
     
@@ -86,10 +86,11 @@ def evaluate_advert(api_key_adclear, advert_text):
     # Debugging: Check response status and content
     if response.status_code != 200:
         print(f"Error evaluating advert (Adclear API): {response.status_code}, {response.text}")
-        return {"error": f"Error from Adclear: {response.text}"}
+        return {"error": f"Error from Adclear: {response.json()}"}
 
     print("Advert evaluated successfully.")
     return response.json()
+
 
 # Function to format and display the output
 def display_output(advert_data, evaluation_data):
@@ -99,7 +100,8 @@ def display_output(advert_data, evaluation_data):
     ad_tags = advert_data.get('data', {}).get('tags', [])
     
     # Extract evaluation result
-    evaluation_result = evaluation_data.get('result', 'No evaluation result available.')
+    overall_assessment = evaluation_data.get('overallAssessment', 'No overall assessment available.')
+    suggested_changes = evaluation_data.get('suggestedChanges', [])
     
     # Format and display the output
     print("\n" + "-" * 80)
@@ -109,7 +111,11 @@ def display_output(advert_data, evaluation_data):
     print(f"**Tags**: {', '.join(ad_tags)}")
     print("-" * 80)
     print(f"### Adclear Evaluation\n")
-    print(f"{evaluation_result}")
+    print(f"Overall Assessment: {overall_assessment}")
+    if suggested_changes:
+        print("Suggested Changes:")
+        for change in suggested_changes:
+            print(f"- {change['recommendation']}: {change['rationale']}")
     print("-" * 80)
 
 # Main function to chain everything together
@@ -153,10 +159,10 @@ def run_demo(api_key_adclear, product_description):
     display_output(advert_response, evaluation_response)
 
 # Replace this with your actual Adclear API key
-api_key_adclear = "adclear_3ZMSQMKRUWNJTvhsrtDZ35jU"  # Update with the correct API key
+api_key_adclear = "XXX-XXX-XXX-XXX"  # Update with the correct API key
 
 # Input section for the product description
-product_description = input("Please provide a product description: ")
+product_description = input("Please provide a product description:")
 
 # Run the demo
 run_demo(api_key_adclear, product_description)
