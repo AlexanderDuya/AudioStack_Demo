@@ -38,27 +38,27 @@ The program will display:
 The generated advert with its title, text, and tags.
 The evaluation results from Adclear, including any compliance issues or suggestions for improvement.
 
-Example Usage:
+**Example Usage:**
 
-Please provide a product description: adclear.ai is a marketing compliance company
+Please provide a product description: Brown Nugget
 
-### Generated Advert
+Brown Nugget Advert
+Title: Brown Nugget: The Culinary Star
+In the mysterious world of culinary delights, the Brown Nugget emerges as a singular star. This tantalizing treat promises unparalleled satisfaction with every bite, captivating food enthusiasts everywhere. Its rich flavors and delightful texture create an unforgettable experience that leaves taste buds yearning for more. Discover this extraordinary delicacy and elevate your dining adventures to new heights! Grab yours today.
 
-**Title**: *Clarity Through Compliance*
+**Tags**
+Culinary Delights
+Food Enthusiasts
+Gourmet Treats
+Dining Adventures
 
-> Navigating complex marketing regulations often leaves businesses overwhelmed. But with Adclear.ai, clarity is just a step away. By offering expert compliance solutions, they transform chaos into seamless operations. Join countless brands who trust Adclear.ai to keep their campaigns compliant and stress-free. Ensure your marketing strategies meet legal standards effortlessly. Visit adclear dot ai and experience the ease of compliance today.
+**Adclear Evaluation**
+Overall Assessment: This will need review to pass the relevant guidelines.
 
-**Tags**: Marketing Compliance, Business Solution, Advertising Regulations
-
-### Adclear Evaluation
-
-This will need review to pass the relevant guidelines.
-
-- **Rule 11.2:** Ensure that terms like "expert compliance solutions" are clear to consumers. Further explanation of the service's specifics may be needed to avoid ambiguity or confusion.
-- **Rule 20.7:** Avoid potential exaggeration of the support level provided by stating "countless brands who trust Adclear.ai" without clearer context or specifics on support offered.
-- The advert suggests that Adclear.ai can make compliance "effortless," which could require substantiation (**Rule 12.1**). Advertisers should demonstrate how their services achieve this and back claims where needed.
-- Review for unintentional implications of guarantees or typical results (**Rule 20.8**). Ensure that claims about the "ease of compliance" do not imply guaranteed outcomes without evidence or substantiation.
-- While the advertisement is creative and succinct, suggest including a brief overview of how Adclear.ai meets compliance needs to ensure consumer transparency.
+Suggested Changes:
+   -The advertiser should provide substantiation for claims about the "unparalleled satisfaction" and "extraordinary delicacy" of the Brown Nugget. These claims could be interpreted as health or nutrition claims, which require evidence under **Rule       
+   15.1**.
+   -Ensure that any claims made do not imply a health benefit without substantiation to comply with **Rule 15.1** and avoid making unsubstantiated health or nutrition claims.
 
 **Recommendation:** The advertiser should provide evidence or further substantiation to support claims and consider using testimonials or case studies from recognized brands to fortify the message while ensuring the ad adheres to CAP and BCAP Codes.
 
