@@ -56,8 +56,8 @@ This will need review to pass the relevant guidelines.
 
 - **Rule 11.2:** Ensure that terms like "expert compliance solutions" are clear to consumers. Further explanation of the service's specifics may be needed to avoid ambiguity or confusion.
 - **Rule 20.7:** Avoid potential exaggeration of the support level provided by stating "countless brands who trust Adclear.ai" without clearer context or specifics on support offered.
-- The advert suggests that Adclear.ai can make compliance "effortless," which could require substantiation (Rule 12.1). Advertisers should demonstrate how their services achieve this and back claims where needed.
-- Review for unintentional implications of guarantees or typical results (Rule 20.8). Ensure that claims about the "ease of compliance" do not imply guaranteed outcomes without evidence or substantiation.
+- The advert suggests that Adclear.ai can make compliance "effortless," which could require substantiation (**Rule 12.1**). Advertisers should demonstrate how their services achieve this and back claims where needed.
+- Review for unintentional implications of guarantees or typical results (**Rule 20.8**). Ensure that claims about the "ease of compliance" do not imply guaranteed outcomes without evidence or substantiation.
 - While the advertisement is creative and succinct, suggest including a brief overview of how Adclear.ai meets compliance needs to ensure consumer transparency.
 
 **Recommendation:** The advertiser should provide evidence or further substantiation to support claims and consider using testimonials or case studies from recognized brands to fortify the message while ensuring the ad adheres to CAP and BCAP Codes.
