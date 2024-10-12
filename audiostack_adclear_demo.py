@@ -3,7 +3,7 @@ import json
 import audiostack
 
 # Set your Audiostack API key
-audiostack.api_key = "4bb2eddd-693b-4b24-9107-ee18bbaff5bf"  # Use your actual API key here
+audiostack.api_key = "XXX-XXX-XXX-XXX"  # Use your actual API key here
 
 # Function to generate a script resource using Audiostack API
 def generate_script(product_description):
@@ -153,7 +153,7 @@ def run_demo(api_key_adclear, product_description):
     display_output(advert_response, evaluation_response)
 
 # Replace this with your actual Adclear API key
-api_key_adclear = "adclear_3ZMSQMKRUWNJTvhsrtDZ35jU"  # Update with the correct API key
+api_key_adclear = "XXX-XXX-XXX-XXX"  # Update with the correct API key
 
 # Input section for the product description
 product_description = input("Please provide a product description: ")
